@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11f588558a262b140a3ac404995e6948, type: 3}
+  m_Name: AllShadowModels
+  m_EditorClassIdentifier: 
+  models:
+  - {fileID: 8673103570340766551, guid: 8dbf0df65226c6a4abd4e883febb2407, type: 3}
+  - {fileID: 1509454185976289943, guid: c9554a1fc6f92f84abce956a5615d286, type: 3}
+  - {fileID: 5482421732856860908, guid: b92e1e2bd1ce4c548859f8060486d2f0, type: 3}
+  - {fileID: 5456460837643483896, guid: 716472a873feeb443974a670b7866128, type: 3}
