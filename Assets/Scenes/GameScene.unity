@@ -318,6 +318,7 @@ GameObject:
   - component: {fileID: 717569879}
   - component: {fileID: 717569880}
   - component: {fileID: 717569881}
+  - component: {fileID: 717569882}
   m_Layer: 0
   m_Name: Point
   m_TagString: Untagged
@@ -368,8 +369,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c77a8beec097c84da5a7d79cf8593c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _models: {fileID: 11400000, guid: c25030a098d512f4f9e05ed1b5c6ad01, type: 2}
+  models: {fileID: 11400000, guid: c25030a098d512f4f9e05ed1b5c6ad01, type: 2}
   parent: {fileID: 1338349818}
+--- !u!114 &717569882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 717569878}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ef608a91bbf25240b7b61157025da0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotator: {fileID: 717569880}
+  minAngle: 10
 --- !u!1 &908860463
 GameObject:
   m_ObjectHideFlags: 0

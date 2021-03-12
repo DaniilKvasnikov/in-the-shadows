@@ -1,15 +1,17 @@
 ﻿using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class SpawnModel : MonoBehaviour
+namespace Gameplay
 {
-    [SerializeField] private AllShadowModels _models;
-    [SerializeField] private Transform parent;
-
-    private void Start()
+    public class SpawnModel : MonoBehaviour
     {
-        GameObject obj = Instantiate(_models.models[0], parent.position, Quaternion.identity, parent);
+        [SerializeField] private AllShadowModels models;
+        [SerializeField] private Transform parent;
+
+        private GameObject obj;
+        private void Start()
+        {
+            obj = Instantiate(models.models[0], parent.position, Quaternion.identity, parent);
+        }
     }
 }
